@@ -25,7 +25,7 @@ public class dz5task2 {
                 "Анна Владимирова " +
                 "Иван Мечников " +
                 "Петр Петин " +
-                "Иван Ежов ";
+                "Иван Ежов";
         String[] listOfNamesAndSurnames = employees.split(" ");
         for (int i = 0; i < listOfNamesAndSurnames.length; i += 2) {
             if (nameMap.containsKey(listOfNamesAndSurnames[i])) {
